@@ -16,7 +16,7 @@ class Screen6 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/screen7');
               },
-              child: Text('Go to Screen 5 '),
+              child: Text('Go to Screen 7 '),
             ),
           ],
         ),

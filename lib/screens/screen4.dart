@@ -11,12 +11,12 @@ class Screen4 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Screen 5'),
+            Text('Screen 4'),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/screen5');
               },
-              child: Text('Go to Screen 6'),
+              child: Text('Go to Screen 5'),
             ),
           ],
         ),
